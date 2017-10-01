@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework 3</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<h1>Speaker's Form</h1>
+
+<form action="#" method="post">
+    <h2>Speakers Personal Information</h2>
+    <div class="field-group">
+        <label>First Name:</label>
+        <div class="field">
+            <input id="f-name" name="fname" type="text" placeholder="First Name">
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Last Name:</label>
+        <div class="field">
+            <input id="l-name" name="lname" type="text" placeholder="Last Name">
+        </div>
+    </div>
+
+    <div class="field-group">
+        <label>Biography:</label>
+        <div class="field">
+            <textarea id="bio" name="bio" placeholder="Put information about yourself here.." rows="8"
+                      cols="40"></textarea>
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Email:</label>
+        <div class="field">
+            <input id="email" name="email" type="email" placeholder="Email">
+            <!--pattern="/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/"-->
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Phone:</label>
+        <div class="field">
+            <input id="phone" name="phone" type="text" placeholder="Phone Number">
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Company:</label>
+        <div class="field">
+            <input id="company" name="company" type="text" placeholder="Company Name">
+        </div>
+    </div>
+    <br/>
+
+    <h2>Social Media</h2>
+    <div class="field-group">
+        <label>Git Hub:</label>
+        <div class="field">
+            <input id="git-hub" name="github" type="url" placeholder="Your github.com URL">
+            <!--pattern="https?://.+"-->
+        </div>
+    </div>
+    <div class="field-group">
+        <label>LinkedIn:</label>
+        <div class="field">
+            <input id="link-in" name="linkin" type="url" placeholder="Your linkedin.com URL">
+            <!--pattern="https?://.+"-->
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Twitter:</label>
+        <div class="field">
+            <input id="twitter" name="twitter" type="url" placeholder="Your twitter.com URL">
+            <!--pattern="https?://.+"-->
+        </div>
+    </div>
+    <br/>
+    <h2>Speakers Topic Information</h2>
+    <div class="field-group">
+        <label>Topic Year:</label>
+        <div class="field">
+            <input id="year" name="year" type="text" placeholder="Year given.">
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Topic Name:</label>
+        <div class="field">
+            <input id="name" name="name" type="text" placeholder="Name of Topic">
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Topic Description:</label>
+        <div class="field">
+            <input id="description" name="description" type="text" placeholder="Description of Topic">
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Topic Focus:</label>
+        <div class="field">
+            <input id="focus" name="focus" type="text" placeholder="Focus of Your Topic">
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Topic Length:</label>
+        <div class="field">
+            <input id="length" name="length" type="text" placeholder="Length of Discussion">
+        </div>
+    </div>
+    <div class="field-group">
+        <label>Topic Repository:</label>
+        <div class="field">
+            <input id="repo" name="repo" type="url" placeholder="Topic Repository Location">
+            <!--pattern="https?://.+"-->
+        </div>
+    </div>
+    <br/>
+    <div class="field-group">
+        <div class="field">
+            <input value="send" type="submit">
+        </div>
+    </div>
+    <br/>
+
+</form>
+
+
+<script src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
+

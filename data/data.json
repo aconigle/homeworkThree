@@ -1,0 +1,82 @@
+{
+  "Speakers": [
+    {
+      "f-name": "todd",
+      "l-name": "shelton",
+      "pic": "",
+      "bio": "Pluralsight Author and HTML/CSS/JS Freelancer",
+      "email": "todd@todd.com",
+      "phone": "3175554321",
+      "company": "IUPUI - School of Informatics",
+      "social": [
+        {
+          "git-hub": "https://github.com/milky-ashes/shelton",
+          "link-in": "https://www.linkedin.com/in/toddshelton41/",
+          "twitter": "https://twitter.com/tweenout?lang=en"
+        }
+      ],
+      "topic": [
+        {
+          "year": "2016",
+          "name": "How to Mobile Web",
+          "description": "How to mobile web by Todd S.",
+          "focus": "web stuff",
+          "length": "30 seconds",
+          "repo": "google.com"
+        }
+      ]
+    },
+    {
+      "f-name": "mark",
+      "l-name": "watson",
+      "pic": "",
+      "bio": "Building and designing bots is my thing.",
+      "email": "markwatsonatx@gmail.com",
+      "phone": "3178675309",
+      "company": "ibm",
+      "social": [
+        {
+          "git-hub": "https://github.com/markwatsonatx",
+          "link-in": "https://www.linkedin.com/in/markwatsonatx/",
+          "twitter": "https://twitter.com/markwatsonatx?lang=en"
+        }
+      ],
+      "topic": [
+        {
+          "year": "2016",
+          "name": "How to build bots",
+          "description": "You like building bots? So do I! Let's build bots!",
+          "focus": "developer advocate",
+          "length": "2 hours",
+          "repo": "google.com"
+        }
+      ]
+    },
+    {
+      "f-name": "ester",
+      "l-name": "weon",
+      "pic": "",
+      "bio": "Full Stack Web Dev with three years of Software engineering",
+      "email": "ester.s.weon@gmail.com",
+      "phone": "317-767-5309",
+      "company": "Presence Product Group",
+      "social": [
+        {
+          "git-hub": "https://github.com/esterweon",
+          "link-in": "https://www.linkedin.com/in/ester-weon/",
+          "twitter": "https://twitter.com/esterweon?lang=en"
+        }
+      ],
+      "topic": [
+        {
+          "year": "2016",
+          "name": "The Beginners Guide to Developing a Full Stack Web App",
+          "description": "Lets full stack this up in my speech yo!",
+          "focus": "full stack software development",
+          "length": "2 hours",
+          "repo": "google.com"
+        }
+      ]
+    }
+  ]
+}
