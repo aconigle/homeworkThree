@@ -1,3 +1,5 @@
+var newData = [];
+
 (function ($) {
     $.fn.serializeFormJSON = function () {
 
@@ -14,11 +16,23 @@
             }
         });
         return obj;
-
     };
 })(jQuery);
 
-//
+
+$('form').submit(function (e) {
+    e.preventDefault();
+    validateForm();
+    var data = $(this).serializeFormJSON();
+    console.log(data);
+    $("form").trigger("reset");
+    newData.push(data);
+    console.log(newData);
+    // return false;
+});
+
+
+//validation
 function validateURL(url) {
     var vu = /^(http[s]?:\/\/){0,1}(www\.)?[a-zA-Z0-9\-]+\.[a-zA-Z]{2,5}[]?/;
     return vu.test(url);
@@ -77,28 +91,31 @@ function validateForm() {
     return false;
 }
 
-$('form').submit(function (e) {
-    e.preventDefault();
-    validateForm();
-    var data = $(this).serializeFormJSON();
-    console.log(data);
-    /* Object
-        fname: "value"
-        lname: "value"
-        bio: "value"
-        email: "value"
-        phone: "value"
-        company: "value"
-        github: "value"
-        linkin: "value"
-        twitter: "value"
-        year: "value"
-        name: "value"
-        description: "value"
-        focus: "value"
-        length: "value"
-        repo: "value"
-     */
-    $("form").trigger("reset");
-});
-
+// $('form').submit(function (e) {
+//     e.preventDefault();
+//     validateForm();
+//     var data = $(this).serializeFormJSON();
+//     console.log(data);
+//     /* Object
+//         fname: "value"
+//         lname: "value"
+//         bio: "value"
+//         email: "value"
+//         phone: "value"
+//         company: "value"
+//         github: "value"
+//         linkin: "value"
+//         twitter: "value"
+//         year: "value"
+//         name: "value"
+//         description: "value"
+//         focus: "value"
+//         length: "value"
+//         repo: "value"
+//      */
+//
+//     $("form").trigger("reset");
+//     return false;
+// });
+//
+//
